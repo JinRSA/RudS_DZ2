@@ -28,7 +28,7 @@ public class Zoo {
             for (Food food : foods) {
                 acolyte.feed(animal, food);
                 try {
-                    acolyte.getVoice((Voice)animal);
+                    System.out.println(acolyte.getVoice((Voice)animal));
                 } catch (Exception ignored) {}
             }
         }
