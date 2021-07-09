@@ -1,6 +1,6 @@
 package animals;
 
-public class Horse extends Herbivore implements IRun, ISwim, IVoice {
+public class Horse extends Herbivore implements Run, Swim, Voice {
     public Horse(final String name) { super(name); }
 
     public Horse(final String name, final int prettiness, final int satiety) { super(name, prettiness, satiety); }

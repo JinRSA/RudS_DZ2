@@ -1,5 +1,5 @@
 package animals;
 
-public interface ISwim {
+public interface Swim {
     void swim();
 }

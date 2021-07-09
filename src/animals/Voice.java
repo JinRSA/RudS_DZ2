@@ -1,5 +1,5 @@
 package animals;
 
-public interface IVoice {
+public interface Voice {
     String voice();
 }

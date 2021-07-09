@@ -1,5 +1,5 @@
 package animals;
 
-public interface IFly {
+public interface Fly {
     void fly();
 }

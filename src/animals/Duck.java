@@ -1,6 +1,6 @@
 package animals;
 
-public class Duck extends Herbivore implements IFly, IRun, ISwim, IVoice {
+public class Duck extends Herbivore implements Fly, Run, Swim, Voice {
     public Duck(final String name) { super(name); }
 
     public Duck(final String name, final int prettiness, final int satiety) { super(name, prettiness, satiety); }

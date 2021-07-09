@@ -1,5 +1,5 @@
 package animals;
 
-public interface IRun {
+public interface Run {
     void run();
 }

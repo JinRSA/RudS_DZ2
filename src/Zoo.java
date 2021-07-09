@@ -19,7 +19,7 @@ public class Zoo {
                 new TreeLeaves(8),
                 new Wormwood(10)
         };
-        ISwim[] pond = {
+        Swim[] pond = {
                 (Duck)animals[0],
                 (Fish)animals[2]
         };
@@ -28,12 +28,12 @@ public class Zoo {
             for (Food food : foods) {
                 acolyte.feed(animal, food);
                 try {
-                    acolyte.getVoice((IVoice)animal);
+                    acolyte.getVoice((Voice)animal);
                 } catch (Exception ignored) {}
             }
         }
         System.out.println();
-        for (ISwim swim : pond) {
+        for (Swim swim : pond) {
             swim.swim();
         }
     }

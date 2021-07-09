@@ -1,6 +1,6 @@
 package animals;
 
-public class Wolf extends Carnivorous implements IRun, ISwim, IVoice {
+public class Wolf extends Carnivorous implements Run, Swim, Voice {
     public Wolf(final String name) { super(name); }
 
     public Wolf(final String name, final int prettiness, final int satiety) { super(name, prettiness, satiety); }

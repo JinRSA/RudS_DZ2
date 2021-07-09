@@ -1,6 +1,6 @@
 package animals;
 
-public class Elephant extends Herbivore implements IRun, ISwim, IVoice {
+public class Elephant extends Herbivore implements Run, Swim, Voice {
     public Elephant(final String name) { super(name); }
 
     public Elephant(final String name, final int prettiness, final int satiety) { super(name, prettiness, satiety); }

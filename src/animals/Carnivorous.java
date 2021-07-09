@@ -3,7 +3,7 @@ package animals;
 import foods.Food;
 import foods.Meat;
 
-public class Carnivorous extends Animal {
+public abstract class Carnivorous extends Animal {
     public Carnivorous() {}
 
     public Carnivorous(final String name) { super(name); }
